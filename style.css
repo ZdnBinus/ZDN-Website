@@ -1,0 +1,35 @@
+.section-home .container{
+    padding-top: 2rem;
+}
+
+.section-aboutme{
+    padding: 1rem;
+}
+
+.section-aboutme .row{
+    margin-top: 1rem;
+}
+
+.img-aboutme{
+    width: 30%;
+}
+
+.section-study{
+    padding: 2rem;
+   
+}
+
+.section-study .container .row .col .container{
+    margin: 2rem;
+   
+}
+
+.section-skill-work .row{
+
+    padding-top: 10rem;
+}
+
+.section-contact{
+    margin-top: 2rem;
+    padding: 2rem;
+}
