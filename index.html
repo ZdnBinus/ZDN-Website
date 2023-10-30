@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a0d0e3691d.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body id="particles-js">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <img src="img/logo.png" alt="" style="width: 4%;padding: 5px;">
@@ -34,22 +34,20 @@
         </div>
     </nav>
 
+    <div id="particles-js">
+
+    </div>
+
     <section class="section-home">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>Selamat Datang di CV Digital Zaidan</h1>
-                    <p>Halo, saya Zaidan, seorang pengembang situs web dan Android. Selamat datang di CV digital saya, di mana Anda dapat mengetahui lebih lanjut tentang latar belakang, keterampilan, dan pengalaman saya dalam dunia teknologi. Saya hadir untuk menciptakan solusi digital yang inovatif. Mari kita jelajahi lebih lanjut!</p>
-                    <button type="button" class="btn btn-dark btn-lg btn-block"><i class="	fab fa-whatsapp"></i> Hubungi Saya</button>
-                </div>
-                <div class="col">
-                    <img src="img/profile_pic.png" alt="" style="width: 80%;">
-                </div>
-            </div>
+        <div class="container d-flex flex-column justify-content-center align-items-center" id="particles-js">
+            <h1>Hai! Gua <span style="color: slateblue;">Zaidan</span>.</h1>
+            <h1>Seorang Mobile App Developer</h1>
+            <button type="button" class="btn btn-dark btn-lg btn-block"><i class="	fab fa-whatsapp"></i> Hubungi Saya</button>
+            
         </div>
     </section>
 
-    <section class="section-aboutme bg-dark text-light">
+    <section class="section-aboutme text-light">
         <div class="container">
             <div class="text-center">
                 <h1>About Me</h1>
@@ -96,7 +94,7 @@
         
     </section>
 
-    <section class="section-skill-work bg-dark text-light text-center p-2">
+    <section class="section-skill-work text-light text-center p-2">
         <div class="container">
             <h1 class="">Skill dalam Pekerjaan</h1>
         <div class="row p-3">
@@ -158,5 +156,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
     "></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function(){
+            console.log('particles.json loaded. . .');
+        });
+    </script>
 </body>
 </html>
