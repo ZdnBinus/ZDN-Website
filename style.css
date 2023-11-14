@@ -85,8 +85,14 @@ p {
 }
 .section-home{
     min-height: 100vh;
-    background-color: transparent;
+    background-image: url("https://images.unsplash.com/photo-1555043722-4523972f07ee?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    
 }
+
+.section-home h1{
+    text-shadow: 7px 7px #1413136a;
+}
+
 .section-home .container{
     padding-top: 2rem;
     max-height: 600px;
@@ -113,6 +119,11 @@ p {
 .section-aboutme .card{
     width: 10rem;
     margin: 1rem;
+}
+
+.section-aboutme .card-img-overlay{
+    
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 
