@@ -59,13 +59,15 @@
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
+
 .section-home {
     height: 100vh;
     
 }
 
-.section-home .container{
-    width: 50%;
+.section-home .container .row .col h1{
+    line-height: 80%;
+   
 }
 
 .section-aboutme{
